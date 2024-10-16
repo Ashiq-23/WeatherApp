@@ -6,8 +6,7 @@ function App (){
   return(
     <>
     <Nav/>
-    <br /><br />
-    <br /><br />
+    <br />
     <Weather/>
     </>
   )

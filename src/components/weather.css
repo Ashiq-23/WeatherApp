@@ -81,7 +81,7 @@
 .col {
     display: flex;
     align-items: flex-start;
-    gap: 12px;
+    gap: 1px;
     font-size: 22px;
 }
 
@@ -91,7 +91,7 @@
 }
 
 .col img {
-    width: 40px;
+    width: 30px;
     margin-top: 13px;
     margin-left: 10px;
 }

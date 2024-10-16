@@ -11,6 +11,7 @@ import snow from './images/snow.png';
 import windIcon from './images/wind.png';
 import pressure from './images/pressure.png';
 import sealevel from './images/sealevel.png';
+import country from './images/country.png';
 
 function Weather() {
     const [weatherData, setWeatherData] = useState(null);
@@ -103,6 +104,13 @@ function Weather() {
                             <div>
                                 <p>{weatherData.main.sea_level}M</p>
                                 <span>Sea Level</span>
+                            </div>
+                        </div>
+                        <div className="col">
+                            <img src={country} alt="country" />
+                            <div>
+                                <p>{weatherData.sys.country}</p>
+                                <span>Country</span>
                             </div>
                         </div>
                     </div>

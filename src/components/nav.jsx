@@ -30,7 +30,7 @@ export default function Nav() {
 
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="fixed" sx={{ background: 'linear-gradient(135deg, #3a1c71, #d76d77, #ffaf7b)' }}>
+      <AppBar position="static" sx={{ background: 'linear-gradient(135deg, #3a1c71, #d76d77, #ffaf7b)' }}>
   <Toolbar>
     <IconButton
       size="large"
